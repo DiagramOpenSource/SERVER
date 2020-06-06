@@ -1,0 +1,15 @@
+package enlace;
+
+class DsSysJava {
+    private native void test();
+    /*
+    static {
+        // adaptar segun so etc
+        System.load(System.getProperty("user.home") +"/basico/francesc/fgv_10/bsd/diagramx.lx/so/diagramx.lx.so");
+    }
+     * */
+    public void llamaTest() {
+        test();
+    }
+}
+

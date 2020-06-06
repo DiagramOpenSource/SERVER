@@ -1,0 +1,15 @@
+LIBRARY      "diagramx"
+DESCRIPTION  'diagramx.dll Interface DIAGRAM-10'
+
+EXPORTS
+   fPreInicializa
+   fInicializa
+   fFinaliza   
+   fLogin
+   fOpcion
+   fLogout
+   fDevuelveVentana
+   fNuevaVentana
+   fPreparaEjecucion
+   fDespachadorInterno
+   

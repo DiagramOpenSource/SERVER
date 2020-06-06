@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall -Wno-unused-parameter -fno-implicit-templates -fno-exceptions -fno-rtti -O2 -g -DDBUG_OFF  -shared -Wl,-soname,ha_diagram.so -o ha_diagram.so CMakeFiles/diagram.dir/ha_diagram.cc.o CMakeFiles/diagram.dir/pila.cc.o CMakeFiles/diagram.dir/transparent_file.cc.o -lpthread ../../libservices/libmysqlservices.a -lpthread 

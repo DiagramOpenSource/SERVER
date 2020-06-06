@@ -1,0 +1,23 @@
+LIBRARY      "ds_winsys"
+DESCRIPTION  'ds_winsys Servidor Windows DIAGRAM'
+
+EXPORTS
+   fInicializa
+   fFinaliza   
+   fLogin
+   fOpcion
+   fLogout
+   fDevuelveVentana
+   fNuevaVentana
+   fPreparaEjecucion
+   fDespachadorInterno
+   pinta_zona
+   mensaje_char
+   mensaje_keydown
+   mensaje_keyup
+   mensaje_ldblclk
+   mensaje_lbuttondown
+   mensaje_mousemove
+   mensaje_lbuttonup
+   mensaje_command
+   

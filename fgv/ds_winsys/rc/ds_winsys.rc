@@ -1,0 +1,425 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "windowsx.h"
+#include "fgvwin.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+AGICO                   ICON    DISCARDABLE     "../bmp/agi1.ico"
+AGIWINNT                ICON    DISCARDABLE     "../bmp/agi.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+AGIXTECLADO ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "A",            WIN_TECLA821,           VIRTKEY, CONTROL, ALT, NOINVERT
+    "C",            WIN_TECLA807,           VIRTKEY, CONTROL, NOINVERT
+    "I",            WIN_TECLA813,           VIRTKEY, CONTROL, ALT, NOINVERT
+    "Q",            WIN_TECLA807,           VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        WIN_TECLA803,           VIRTKEY, NOINVERT
+    VK_DELETE,      WIN_TECLA819,           VIRTKEY, NOINVERT
+    VK_DOWN,        WIN_TECLA809,           VIRTKEY, NOINVERT
+    VK_END,         WIN_TECLA816,           VIRTKEY, NOINVERT
+    VK_END,         WIN_TECLA817,           VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      WIN_TECLA806,           VIRTKEY, NOINVERT
+    VK_F1,          WIN_TECLA823,           VIRTKEY, NOINVERT
+    VK_F1,          WIN_TECLA833,           VIRTKEY, CONTROL, NOINVERT
+    VK_F10,         WIN_TECLA832,           VIRTKEY, NOINVERT
+    VK_F10,         WIN_TECLA842,           VIRTKEY, CONTROL, NOINVERT
+    VK_F11,         WIN_TECLA820,           VIRTKEY, NOINVERT
+    VK_F12,         WIN_TECLA822,           VIRTKEY, NOINVERT
+    VK_F12,         64016,                  VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          WIN_TECLA824,           VIRTKEY, NOINVERT
+    VK_F2,          WIN_TECLA834,           VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          WIN_TECLA825,           VIRTKEY, NOINVERT
+    VK_F3,          WIN_TECLA835,           VIRTKEY, CONTROL, NOINVERT
+    VK_F4,          WIN_TECLA826,           VIRTKEY, NOINVERT
+    VK_F4,          WIN_TECLA836,           VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          WIN_TECLA827,           VIRTKEY, NOINVERT
+    VK_F5,          WIN_TECLA837,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          WIN_TECLA828,           VIRTKEY, NOINVERT
+    VK_F6,          WIN_TECLA838,           VIRTKEY, CONTROL, NOINVERT
+    VK_F7,          WIN_TECLA829,           VIRTKEY, NOINVERT
+    VK_F7,          WIN_TECLA839,           VIRTKEY, CONTROL, NOINVERT
+    VK_F8,          WIN_TECLA830,           VIRTKEY, NOINVERT
+    VK_F8,          WIN_TECLA840,           VIRTKEY, CONTROL, NOINVERT
+    VK_F9,          WIN_TECLA831,           VIRTKEY, NOINVERT
+    VK_F9,          WIN_TECLA841,           VIRTKEY, CONTROL, NOINVERT
+    VK_HOME,        WIN_TECLA812,           VIRTKEY, NOINVERT
+    VK_INSERT,      WIN_TECLA818,           VIRTKEY, NOINVERT
+    VK_INSERT,      MID_XCLIPCOPY,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      MID_XCLIPPASTE,         VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        WIN_TECLA810,           VIRTKEY, NOINVERT
+    VK_NEXT,        WIN_TECLA815,           VIRTKEY, NOINVERT
+    VK_PRIOR,       WIN_TECLA814,           VIRTKEY, NOINVERT
+    VK_RETURN,      WIN_TECLA802,           VIRTKEY, NOINVERT
+    VK_RIGHT,       WIN_TECLA811,           VIRTKEY, NOINVERT
+    VK_TAB,         WIN_TECLA804,           VIRTKEY, NOINVERT
+    VK_TAB,         WIN_TECLA805,           VIRTKEY, SHIFT, NOINVERT
+    VK_UP,          WIN_TECLA808,           VIRTKEY, NOINVERT
+    "^J",           WIN_TECLA801,           ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+AGDSG197                BITMAP  MOVEABLE PURE   "../bmp/agdsg197.bmp"
+AGDSG206                BITMAP  MOVEABLE PURE   "../bmp/agdsg206.bmp"
+AGDSG215                BITMAP  MOVEABLE PURE   "../bmp/agdsg215.bmp"
+AGDSG216                BITMAP  MOVEABLE PURE   "../bmp/agdsg216.bmp"
+AGDSG196                BITMAP  MOVEABLE PURE   "../bmp/agdsg196.bmp"
+AGDSG179                BITMAP  MOVEABLE PURE   "../bmp/agdsg179.bmp"
+AGDSG205                BITMAP  MOVEABLE PURE   "../bmp/agdsg205.bmp"
+AGDSG186                BITMAP  MOVEABLE PURE   "../bmp/agdsg186.bmp"
+AGDSG218                BITMAP  MOVEABLE PURE   "../bmp/agdsg218.bmp"
+AGDSG194                BITMAP  MOVEABLE PURE   "../bmp/agdsg194.bmp"
+AGDSG193                BITMAP  MOVEABLE PURE   "../bmp/agdsg193.bmp"
+AGDSG195                BITMAP  MOVEABLE PURE   "../bmp/agdsg195.bmp"
+AGDSG192                BITMAP  MOVEABLE PURE   "../bmp/agdsg192.bmp"
+AGDSG191                BITMAP  MOVEABLE PURE   "../bmp/agdsg191.bmp"
+AGDSG180                BITMAP  MOVEABLE PURE   "../bmp/agdsg180.bmp"
+AGDSG217                BITMAP  MOVEABLE PURE   "../bmp/agdsg217.bmp"
+AGDSG201                BITMAP  MOVEABLE PURE   "../bmp/agdsg201.bmp"
+AGDSG204                BITMAP  MOVEABLE PURE   "../bmp/agdsg204.bmp"
+AGDSG200                BITMAP  MOVEABLE PURE   "../bmp/agdsg200.bmp"
+AGDSG203                BITMAP  MOVEABLE PURE   "../bmp/agdsg203.bmp"
+AGDSG202                BITMAP  MOVEABLE PURE   "../bmp/agdsg202.bmp"
+AGDSG187                BITMAP  MOVEABLE PURE   "../bmp/agdsg187.bmp"
+AGDSG185                BITMAP  MOVEABLE PURE   "../bmp/agdsg185.bmp"
+AGDSG188                BITMAP  MOVEABLE PURE   "../bmp/agdsg188.bmp"
+AGDSG214                BITMAP  MOVEABLE PURE   "../bmp/agdsg214.bmp"
+AGDSG199                BITMAP  MOVEABLE PURE   "../bmp/agdsg199.bmp"
+AGDSG211                BITMAP  MOVEABLE PURE   "../bmp/agdsg211.bmp"
+AGDSG210                BITMAP  MOVEABLE PURE   "../bmp/agdsg210.bmp"
+AGDSG208                BITMAP  MOVEABLE PURE   "../bmp/agdsg208.bmp"
+AGDSG183                BITMAP  MOVEABLE PURE   "../bmp/agdsg183.bmp"
+AGDSG189                BITMAP  MOVEABLE PURE   "../bmp/agdsg189.bmp"
+AGDSG182                BITMAP  MOVEABLE PURE   "../bmp/agdsg182.bmp"
+AGDSG213                BITMAP  MOVEABLE PURE   "../bmp/agdsg213.bmp"
+AGDSG198                BITMAP  MOVEABLE PURE   "../bmp/agdsg198.bmp"
+AGDSG212                BITMAP  MOVEABLE PURE   "../bmp/agdsg212.bmp"
+AGDSG209                BITMAP  MOVEABLE PURE   "../bmp/agdsg209.bmp"
+AGDSG207                BITMAP  MOVEABLE PURE   "../bmp/agdsg207.bmp"
+AGDSG184                BITMAP  MOVEABLE PURE   "../bmp/agdsg184.bmp"
+AGDSG181                BITMAP  MOVEABLE PURE   "../bmp/agdsg181.bmp"
+AGDSG190                BITMAP  MOVEABLE PURE   "../bmp/agdsg190.bmp"
+AGDSG220                BITMAP  MOVEABLE PURE   "../bmp/agdsg220.bmp"
+AGDSG221                BITMAP  MOVEABLE PURE   "../bmp/agdsg221.bmp"
+AGDSG222                BITMAP  MOVEABLE PURE   "../bmp/agdsg222.bmp"
+AGDSG223                BITMAP  MOVEABLE PURE   "../bmp/agdsg223.bmp"
+AGDSG219                BITMAP  MOVEABLE PURE   "../bmp/agdsg219.bmp"
+AGDSG176                BITMAP  MOVEABLE PURE   "../bmp/agdsg176.bmp"
+AGDSG177                BITMAP  MOVEABLE PURE   "../bmp/agdsg177.bmp"
+AGDSG178                BITMAP  MOVEABLE PURE   "../bmp/agdsg178.bmp"
+AMDSG197                BITMAP  MOVEABLE PURE   "../bmp/amdsg197.bmp"
+AMDSG206                BITMAP  MOVEABLE PURE   "../bmp/amdsg206.bmp"
+AMDSG215                BITMAP  MOVEABLE PURE   "../bmp/amdsg215.bmp"
+AMDSG216                BITMAP  MOVEABLE PURE   "../bmp/amdsg216.bmp"
+AMDSG196                BITMAP  MOVEABLE PURE   "../bmp/amdsg196.bmp"
+AMDSG179                BITMAP  MOVEABLE PURE   "../bmp/amdsg179.bmp"
+AMDSG205                BITMAP  MOVEABLE PURE   "../bmp/amdsg205.bmp"
+AMDSG186                BITMAP  MOVEABLE PURE   "../bmp/amdsg186.bmp"
+AMDSG218                BITMAP  MOVEABLE PURE   "../bmp/amdsg218.bmp"
+AMDSG194                BITMAP  MOVEABLE PURE   "../bmp/amdsg194.bmp"
+AMDSG193                BITMAP  MOVEABLE PURE   "../bmp/amdsg193.bmp"
+AMDSG195                BITMAP  MOVEABLE PURE   "../bmp/amdsg195.bmp"
+AMDSG192                BITMAP  MOVEABLE PURE   "../bmp/amdsg192.bmp"
+AMDSG191                BITMAP  MOVEABLE PURE   "../bmp/amdsg191.bmp"
+AMDSG180                BITMAP  MOVEABLE PURE   "../bmp/amdsg180.bmp"
+AMDSG217                BITMAP  MOVEABLE PURE   "../bmp/amdsg217.bmp"
+AMDSG201                BITMAP  MOVEABLE PURE   "../bmp/amdsg201.bmp"
+AMDSG204                BITMAP  MOVEABLE PURE   "../bmp/amdsg204.bmp"
+AMDSG200                BITMAP  MOVEABLE PURE   "../bmp/amdsg200.bmp"
+AMDSG203                BITMAP  MOVEABLE PURE   "../bmp/amdsg203.bmp"
+AMDSG202                BITMAP  MOVEABLE PURE   "../bmp/amdsg202.bmp"
+AMDSG187                BITMAP  MOVEABLE PURE   "../bmp/amdsg187.bmp"
+AMDSG185                BITMAP  MOVEABLE PURE   "../bmp/amdsg185.bmp"
+AMDSG188                BITMAP  MOVEABLE PURE   "../bmp/amdsg188.bmp"
+AMDSG214                BITMAP  MOVEABLE PURE   "../bmp/amdsg214.bmp"
+AMDSG199                BITMAP  MOVEABLE PURE   "../bmp/amdsg199.bmp"
+AMDSG211                BITMAP  MOVEABLE PURE   "../bmp/amdsg211.bmp"
+AMDSG210                BITMAP  MOVEABLE PURE   "../bmp/amdsg210.bmp"
+AMDSG208                BITMAP  MOVEABLE PURE   "../bmp/amdsg208.bmp"
+AMDSG183                BITMAP  MOVEABLE PURE   "../bmp/amdsg183.bmp"
+AMDSG189                BITMAP  MOVEABLE PURE   "../bmp/amdsg189.bmp"
+AMDSG182                BITMAP  MOVEABLE PURE   "../bmp/amdsg182.bmp"
+AMDSG213                BITMAP  MOVEABLE PURE   "../bmp/amdsg213.bmp"
+AMDSG198                BITMAP  MOVEABLE PURE   "../bmp/amdsg198.bmp"
+AMDSG212                BITMAP  MOVEABLE PURE   "../bmp/amdsg212.bmp"
+AMDSG209                BITMAP  MOVEABLE PURE   "../bmp/amdsg209.bmp"
+AMDSG207                BITMAP  MOVEABLE PURE   "../bmp/amdsg207.bmp"
+AMDSG184                BITMAP  MOVEABLE PURE   "../bmp/amdsg184.bmp"
+AMDSG181                BITMAP  MOVEABLE PURE   "../bmp/amdsg181.bmp"
+AMDSG190                BITMAP  MOVEABLE PURE   "../bmp/amdsg190.bmp"
+AMDSG220                BITMAP  MOVEABLE PURE   "../bmp/amdsg220.bmp"
+AMDSG221                BITMAP  MOVEABLE PURE   "../bmp/amdsg221.bmp"
+AMDSG222                BITMAP  MOVEABLE PURE   "../bmp/amdsg222.bmp"
+AMDSG223                BITMAP  MOVEABLE PURE   "../bmp/amdsg223.bmp"
+AMDSG219                BITMAP  MOVEABLE PURE   "../bmp/amdsg219.bmp"
+AMDSG176                BITMAP  MOVEABLE PURE   "../bmp/amdsg176.bmp"
+AMDSG177                BITMAP  MOVEABLE PURE   "../bmp/amdsg177.bmp"
+AMDSG178                BITMAP  MOVEABLE PURE   "../bmp/amdsg178.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ACERCA DIALOG DISCARDABLE  36, 27, 182, 97
+STYLE DS_SYSMODAL | WS_CAPTION | WS_SYSMENU
+CAPTION "ACERCA DE DIAGRAM"
+FONT 12, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&OK",1,68,70,38,15
+    ICON            "AGICO",IDC_STATIC,5,2,20,20
+    LTEXT           "DIAGRAM Server",IDC_STATIC,33,8,133,9,SS_NOPREFIX
+    CTEXT           "Plataforma DIAGRAM   para Windows.",IDC_STATIC,4,25,168,
+                    18,SS_NOPREFIX
+    LTEXT           "(C) 1998-2005 Diagram Software S.L.",IDC_STATIC,5,48,
+                    170,11
+END
+
+ABORTDLG DIALOG DISCARDABLE  29, 24, 122, 73
+STYLE DS_MODALFRAME | WS_CAPTION
+CAPTION "Impresion"
+BEGIN
+    DEFPUSHBUTTON   "Anular",IDCANCEL,40,50,41,20,WS_GROUP
+    CTEXT           "Impresion En Curso",-1,16,19,92,15
+END
+
+WAGICORRECTO DIALOG DISCARDABLE  82, 44, 96, 44
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&No",AGIDNO,58,24,31,14
+    DEFPUSHBUTTON   "&Si",AGIDSI,8,23,32,15
+    CTEXT           "ES CORRECTO?",AGIDTEXTO,10,7,82,10
+END
+
+WAGICONFIRMAR DIALOG DISCARDABLE  88, 64, 169, 99
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Si",AGIDSI,29,66,41,23,NOT WS_TABSTOP
+    PUSHBUTTON      "&No",AGIDNO,104,66,41,23,NOT WS_TABSTOP
+    CTEXT           "",AGIDTEXTO,44,18,104,25
+END
+
+WAGIAVISO DIALOG DISCARDABLE  89, 52, 142, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ok",1,58,47,29,21
+    CTEXT           "",AGIDTEXTO,23,13,112,27
+END
+
+WAGIMPRE DIALOG DISCARDABLE  48, 28, 198, 147
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancelar",2,138,117,37,25
+    DEFPUSHBUTTON   "Ok",1,44,118,37,25
+    COMBOBOX        AGIDLISTA,74,10,93,63,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        AGIDINPUT,76,83,89,12
+    LTEXT           "Tipo Impresora...:",-1,8,12,60,10
+    LTEXT           "",AGIDTEXTO,10,85,60,10
+END
+
+WAGIDIATECLA DIALOG DISCARDABLE  300, 240, 53, 31
+STYLE DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "PAUSA"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,9,3,37,25
+END
+
+WAGINODISPONE DIALOG DISCARDABLE  45, 52, 275, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "OPCION NO DISPONIBLE EN VERSION DE EVALUACION"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,125,53,37,25
+    CTEXT           "",AGIDTEXTO,37,10,204,37
+END
+
+WAGINPUT DIALOG DISCARDABLE  28, 34, 189, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,50,93,37,25
+    PUSHBUTTON      "Cancelar",IDCANCEL,109,93,37,25
+    CTEXT           "",AGIDTEXTO,21,17,147,58
+    EDITTEXT        AGIDINPUT,23,59,143,14,WS_GROUP
+END
+
+WACTIVACION DIALOG DISCARDABLE  90, 60, 206, 122
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Entre su Numero de Activacion"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ACTIVACION,60,48,139,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,30,101,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,101,50,14
+    LTEXT           "Número DE ORO.:",IDC_STATIC,7,25,65,11
+    LTEXT           "Clave Básica:",IDC_STATIC,7,50,47,10
+    LTEXT           "IDENTIFICACION:",IDC_STATIC,7,6,58,13
+    EDITTEXT        IDC_IDENTIFICA,81,6,91,15,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_NUMERO,81,25,92,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "TELEFONOS PARA SOLICITAR LA ACTIVACION",IDC_STATIC,7,69,
+                    192,28
+    EDITTEXT        IDC_TELEFONOS,14,80,177,14,ES_AUTOHSCROLL
+END
+
+INSTALACION DIALOG DISCARDABLE  0, 0, 353, 202
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Instalaciones"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,207,142,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "Cancelar",IDCANCEL,274,142,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_VER1,15,164,319,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "Progress1",IDC_PROGRESO,"msctls_progress32",WS_BORDER,9,
+                    180,331,12
+    GROUPBOX        "",IDC_STATIC,9,3,331,157
+END
+
+CREA_AYUDA DIALOG DISCARDABLE  0, 0, 214, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Preparando la ayuda por primera vez ..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Animate1",IDC_ANIMADO,"SysAnimate32",ACS_CENTER | 
+                    ACS_TRANSPARENT | ACS_AUTOPLAY | WS_TABSTOP,7,7,200,68
+END
+
+WAGICORRECTON DIALOG DISCARDABLE  82, 44, 96, 44
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Si",AGIDSI,8,23,32,15
+    DEFPUSHBUTTON   "&No",AGIDNO,58,24,31,14
+    CTEXT           "ES CORRECTO?",AGIDTEXTO,10,7,82,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+AGICPROHIBI             CURSOR  DISCARDABLE     "../bmp/prohibi.cur"
+AGICCAMPO               CURSOR  DISCARDABLE     "../bmp/campo.cur"
+AGICBOTON               CURSOR  DISCARDABLE     "../bmp/boton.cur"
+AGIPULSADO              CURSOR  DISCARDABLE     "../bmp/pulsado.cur"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windowsx.h""\r\n"
+    "#include ""fgvwin.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "WACTIVACION", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        VERTGUIDE, 80
+        VERTGUIDE, 174
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 115
+    END
+
+    "CREA_AYUDA", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Castilian) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

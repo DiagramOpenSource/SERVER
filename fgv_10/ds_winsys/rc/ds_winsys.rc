@@ -1,0 +1,143 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "windowsx.h"
+#include "C:\\fgv_10\\include\\fgvwin.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ABORTDLG DIALOG DISCARDABLE  29, 24, 122, 73
+STYLE DS_MODALFRAME | WS_CAPTION
+CAPTION "Impresion"
+BEGIN
+    DEFPUSHBUTTON   "Anular",IDCANCEL,40,50,41,20,WS_GROUP
+    CTEXT           "Impresion En Curso",-1,16,19,92,15
+END
+
+WAGIMPRE DIALOG DISCARDABLE  48, 28, 198, 147
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancelar",2,138,117,37,25
+    DEFPUSHBUTTON   "Ok",1,44,118,37,25
+    COMBOBOX        AGIDLISTA,74,10,93,63,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        AGIDINPUT,76,83,89,12
+    LTEXT           "Tipo Impresora...:",-1,8,12,60,10
+    LTEXT           "",AGIDTEXTO,10,85,60,10
+END
+
+INSTALACION DIALOG DISCARDABLE  0, 0, 353, 202
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Instalaciones"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Aceptar",IDOK,207,142,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "Cancelar",IDCANCEL,274,142,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_VER1,15,164,319,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "Progress1",IDC_PROGRESO,"msctls_progress32",WS_BORDER,9,
+                    180,331,12
+    GROUPBOX        "",IDC_STATIC,9,3,331,157
+END
+
+CREA_AYUDA DIALOG DISCARDABLE  0, 0, 214, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Preparando la ayuda por primera vez ..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Animate1",IDC_ANIMADO,"SysAnimate32",ACS_CENTER | 
+                    ACS_TRANSPARENT | ACS_AUTOPLAY | WS_TABSTOP,7,7,200,68
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windowsx.h""\r\n"
+    "#include ""fgvwin.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "CREA_AYUDA", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Castilian) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
